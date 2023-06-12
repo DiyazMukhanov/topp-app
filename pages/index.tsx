@@ -1,10 +1,9 @@
-import Head from "next/head";
-
+import { Htag } from "../components/Htag/Htag";
 
 export default function Home(): JSX.Element {
   return (
     <div className="homeContainer">
-       dsfdsf
+       <Htag tag="h1">Текст</Htag>
     </div>
   )
 }
